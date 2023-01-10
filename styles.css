@@ -108,8 +108,8 @@ body {
     transition: 0.5s;
 }
 
-.inputBox input:valid ~ label,
-.inputBox input:focus ~ label
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
 
 {
     color: #45f3ff;
@@ -130,8 +130,8 @@ body {
     z-index: 9;
 }
 
-.inputBox input:valid ~ label ~ i,
-.inputBox input:focus ~ label ~ i
+.inputBox input:valid ~ span ~ i,
+.inputBox input:focus ~ span ~ i
 {
     height: 44px;
 }
