@@ -31,6 +31,8 @@ body {
     width: 380px;
     height: 420px;
     background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
 }
 
 .box::after {
@@ -41,6 +43,21 @@ body {
     width: 380px;
     height: 420px;
     background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate 
+    {
+        0%
+    {
+        transform: rotate(0deg);
+    }
+        100%
+    {
+        transform: rotate(360deg);
+    }
 }
 
 .form {
